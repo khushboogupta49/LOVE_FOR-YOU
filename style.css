@@ -1,0 +1,85 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left_side button {
+  width: 150px;
+  height: 50px;
+  margin: 20px 30px;
+  padding-left: 20px;
+}
+
+.middle_side img {
+  height: 470px;
+  width: 350px;
+  margin: 20px 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.right_side {
+  padding-top: 5px;
+  margin: 25px 55px;
+}
+#btn_one {
+  background-color: rgb(88, 214, 214);
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#btn_two {
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#btn_thr {
+  background-color: brown;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+#btn_for {
+  background-color: peachpuff;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+
+#btn_fiv{
+  background-color: rgb(179, 145, 145);
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+h2{
+background-color: yellow;
+text-align: center;
+padding: 3px;
+font-family: cursive;
+
+}
+
+
+
+@media(max-width:991px){
+
+    html{
+      font-size: 55%;
+    }
+
+
+div{
+    padding:2rem;
+  }
+
+  /* section{
+padding: 2rem 9%;
+
+  } */
+
+}
